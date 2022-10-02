@@ -1,27 +1,17 @@
-// //Operadores  
-// let valor=true;
-// let valor2=true;
-// let resultado=valor&&valor2;
-// let resultado2=valor||valor2;
-// let resultado3=!valor;
+//Condicional if
+// let nombre="Jeyson Gomez"
+// if (nombre=="Jeyson Gomez") {
+//     alert("Hola")
+// }
 
-//Operador AND : &&
-// let num1=12;
-// let num2=24;
-// afirmacion1=num1>num2;
-// afirmacion2=num1!=num2
-// document.write(afirmacion1&&afirmacion2);
-
-// Operador OR : ||
-// let num1=12;
-// let num2=24;
-// afirmacion1=num1>num2;
-// afirmacion2=num1==num2
-// document.write(afirmacion1||afirmacion2);
-
-//Operador NOT
-let num1=12;
-let num2=24;
-afirmacion1=num1<num2;
-afirmacion2=num1==num2
-document.write(!afirmacion1);
+//Condicional else if-else
+let nombre="Pedro";
+if (nombre=="Jeyson") {
+    alert("Tu nombre es "+nombre)
+}
+else if (nombre=="Josue") {
+    alert("Tu nombre es "+nombre)
+}
+else{
+    alert("Tu nombre es otro")
+}
