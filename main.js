@@ -1,32 +1,27 @@
-//Operadores de comparacion:
-//Igualdad
-//let numero=23;
-//let numero2=13;
-//document.write(numero==numero2)
+// //Operadores  
+// let valor=true;
+// let valor2=true;
+// let resultado=valor&&valor2;
+// let resultado2=valor||valor2;
+// let resultado3=!valor;
 
-//Distinto
-//let numero=23;
-//let numero2=13;
-//document.write(numero!=numero2);
+//Operador AND : &&
+// let num1=12;
+// let num2=24;
+// afirmacion1=num1>num2;
+// afirmacion2=num1!=num2
+// document.write(afirmacion1&&afirmacion2);
 
-//Identidad : === estrictamente iguales
-//let numero=23;
-//let numero2=13;
-//let texto="23";
-//let texto2="texto 2";
-//document.write(texto===numero);
+// Operador OR : ||
+// let num1=12;
+// let num2=24;
+// afirmacion1=num1>num2;
+// afirmacion2=num1==num2
+// document.write(afirmacion1||afirmacion2);
 
-//No identidad : !== no es estrictamente igual
-//let numero=23;
-//let numero2=13;
-//let texto="23";
-//let texto2="texto 2";
-//document.write(texto!==numero);
-
-//Mayor que y mayor igual que
-//let numero=23;
-//let numero2=13;
-//document.write(numero>numero2);
-let numero=23;
-let numero2=13;
-document.write(numero>=numero2);
+//Operador NOT
+let num1=12;
+let num2=24;
+afirmacion1=num1<num2;
+afirmacion2=num1==num2
+document.write(!afirmacion1);
